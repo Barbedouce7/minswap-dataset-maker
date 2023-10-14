@@ -65,9 +65,9 @@ for (const nom in PoolId) { // pour chaque pool
             nombre = lignes.length
             console.log(`Le fichier ${nomFichier} existe et contient ${lignes.length} lignes.`);
         } else {
-            const contenuInitial = '\n';
+            const contenuInitial = '';
             fs.writeFileSync(cheminFichier, contenuInitial, 'utf-8');
-            console.log(`Le fichier ${nomFichier} a été créé avec un contenu initial.`);
+            console.log(`Le fichier ${nomFichier} a été créé`);
         }
         if (nombre > 99) {
              pagenumber = Math.floor(nombre / 100);
