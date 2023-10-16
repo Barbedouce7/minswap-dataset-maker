@@ -13,6 +13,8 @@ const api = new BlockfrostAdapter({
 });
 
 const PoolId = {
+    iusd: "8fde43a3f0b9f0e6f63bec7335e0b855c6b62a4dc51f1b762ccb6dfbbafcfe47",
+    ibtc: "00cf5d6dd4ba7e5b5fac3e45b415a2f53a0c56cb64a5d4b54ce942670ac05b41",
     indy: "571cdbdfae07f098049b917007366cca8f2e0770a7b2bae5f7726f36849fbcb9",
     jpg: "f9d754bbb359e164ac964df47e84726b33117c59eb57e90f835ac6027af0f3f2",
     min: "6aa2153e1ae896a95539c9d62f76cedcdabdcdf144e564b8955f609d660cf6a2",
